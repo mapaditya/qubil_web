@@ -33,14 +33,6 @@ $data = [
         'class' => 'kartik\grid\CheckboxColumn',
         'width' => '20px',
     ],
-    // [
-    //     'class'=>'\kartik\grid\DataColumn',
-    //     'attribute'=>'id_trx_dtl',
-    // ],
-    // [
-    //     'class'=>'\kartik\grid\DataColumn',
-    //     'attribute'=>'id_trx_mst',
-    // ],
     [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'id_pelanggan',
@@ -54,10 +46,6 @@ $data = [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'jmlbln_ini',
     ],
-    // [
-        // 'class'=>'\kartik\grid\DataColumn',
-        // 'attribute'=>'harga_satuan_per_kubik',
-    // ],
     [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'tgl_bayar',
